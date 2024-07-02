@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercicio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div>
+            <p>Valor 1:<input type="number" name="n1" id="n1" ></p>
+            <p>Valor 2:<input type="number" name="n2" id="n2"> </p>
+            <p>Soma<input type="radio" name="calc" id="soma"> </p>
+            <p>Subtração<input type="radio" name="calc" id="subtracao"> </p>
+            <p>Multiplicação<input type="radio" name="calc" id="multiplicacao"> </p>
+            <p>Divisão <input type="radio" name="calc" id="divisao" ></p>
+            <p><input type="button" value="CALCULAR" onclick="calcular()" ></p>
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; VictorKakiutiBoer</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
